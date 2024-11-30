@@ -1,0 +1,85 @@
+/* adduser.css */
+
+.add-user {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fbf8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  height: 30%;
+  margin-top: 5%;
+}
+
+.add-user h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #e6f7ff;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #5591eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3c94f9;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Adjust spacing between form elements */
+#userform label {
+  margin-bottom: 10px;
+}
+
+#userform input {
+  margin-bottom: 20px;
+}

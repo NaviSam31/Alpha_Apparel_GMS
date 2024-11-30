@@ -1,0 +1,137 @@
+/* Container Styling */
+.showitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  width: 50%;
+
+
+}
+#add-product-btn{
+  position: absolute;
+  background-color: #7cdf93;
+  padding:10px;
+  color: white;
+  top: 10%;
+left: 90%;
+border-radius: 10px;
+}
+
+/* Search Button Container */
+.searchbtn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Search Input Styling */
+.in {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-right: 10px;
+}
+
+.in:focus {
+  border-color: #80bdff;
+}
+
+/* Search Button Styling */
+#search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1%;
+  margin-right: 80%;
+}
+
+#search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+/* table {
+  width: 1200px;
+  max-width: 1400px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 230px;
+  background-color: #f8eeee;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #f6f4f4;
+}
+
+table th {
+  background-color: #4f8dd0;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Action Links and Buttons */
+table a, table button {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+table a:hover, table button:hover {
+  text-decoration: underline;
+}
+
+table button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+table button:hover {
+  text-decoration: underline;
+} */
+
+/* Generate PDF Button */
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #218838;
+}
